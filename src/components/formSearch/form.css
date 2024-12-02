@@ -1,0 +1,83 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 11rem;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: left;
+  max-width: 85%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.subTitle {
+  text-align: left;
+  max-width: 85%;
+  margin: auto;
+}
+
+.rightSingleImput {
+  display: grid;
+}
+
+.tripleInput {
+  display: flex;
+  gap: 16px;
+}
+
+div {
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  color: #494949;
+  font-size: 14px;
+  max-width: 11rem;
+}
+
+.leftInput {
+  display: flex;
+  gap: 16px;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #606060;
+  border-radius: 4px;
+}
+button {
+  order: 1px solid #606060;
+}
+button[type="submit"] {
+  width: 100px;
+  padding: 10px;
+  background-color: white;
+  color: #276dd5;
+  border: 1px solid #606060;
+  border: non e;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+button[type="submit"]:hover {
+  background-color: #276dd5;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
